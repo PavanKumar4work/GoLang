@@ -6,8 +6,7 @@ import (
 
 
 func main() {
-    fmt.Printf("hello, world\n")
-
-
+	
+    	fmt.Println("Hello World This is my first golang program\n");
 }
 
