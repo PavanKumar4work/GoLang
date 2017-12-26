@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"testfunctions"
 )
 
 
@@ -25,6 +26,14 @@ func main() {
 
 	pincode = "560087"
 
+//	pincode = 10;	// Error since pincode is of type string and we are assiging integer
+
     	fmt.Printf("Name: %s\nAge: %d\nAddress: %s\nCity: %s\npincode: %s\n", name, age, address, city, pincode);
+
+	testfunctions.Display()
+
+
+//	testfunctions.localFunction() // Non exported function, cannot be accessed
+
 }
 
